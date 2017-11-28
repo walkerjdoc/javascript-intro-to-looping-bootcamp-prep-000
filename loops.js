@@ -17,5 +17,8 @@ let countdown = n
 return "done";
 }
 function doWhileLoop(array){
-  maybeTrue(){array.pop} 
+  do{
+    maybeTrue(){array.pop}
+  }
+  while(maybeTrue()); 
 }
